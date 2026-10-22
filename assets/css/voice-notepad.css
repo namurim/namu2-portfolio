@@ -1,0 +1,30 @@
+/* Voice Notepad detail, scoped to preserve the existing portfolio layout. */
+#project-voice-notepad .voice-flow{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:24px 0 32px;padding:20px;background:#edf3ff;border:1px solid #a7bee3;border-radius:10px}
+#project-voice-notepad .voice-flow span{font-weight:600;color:#234e88}
+#project-voice-notepad .voice-flow b{color:#7593bc}
+#project-voice-notepad .voice-main-screens,#project-voice-notepad .voice-detail-screens{display:block}
+#project-voice-notepad figure{min-width:0;margin:0 0 26px}
+#project-voice-notepad figure img{display:block;width:100%;height:auto;max-height:none;border:1px solid #b6c3d5;border-radius:8px;object-fit:contain;background:white}
+#project-voice-notepad figcaption{padding:12px 2px;font-size:15px;line-height:1.7;color:#495468}
+#project-voice-notepad figcaption strong{color:#182e4c}
+#project-voice-notepad .voice-agent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+#project-voice-notepad .voice-agent{padding:22px;border:1px solid #9db9db;border-radius:10px;background:#edf4ff}
+#project-voice-notepad .voice-agent.multi{border-color:#aaa1cb;background:#f2eef9}
+#project-voice-notepad .voice-agent h4{margin:0 0 14px;font-size:19px}
+#project-voice-notepad .voice-agent p{font-size:16px;line-height:1.85;margin:12px 0 0}
+#project-voice-notepad .voice-agent .voice-step{font-weight:600}
+#project-voice-notepad .voice-table-wrap{overflow-x:auto;margin:22px 0}
+#project-voice-notepad .voice-comparison{width:100%;border-collapse:collapse;font-size:16px;line-height:1.8;min-width:520px}
+#project-voice-notepad caption{text-align:left;font-weight:600;padding:0 0 12px}
+#project-voice-notepad th,#project-voice-notepad td{padding:14px 16px;text-align:left;vertical-align:top;border:1px solid #b6c3d5}
+#project-voice-notepad thead th{background:#e9eff8;color:#1f3e67}
+#project-voice-notepad tbody th{background:#f7f9fc;white-space:nowrap}
+#project-voice-notepad .voice-observation{padding:18px 20px;border-left:3px solid #6685b0;background:#f5f7fb;line-height:1.9;font-size:16px}
+#project-voice-notepad .voice-screen-toggle,#project-voice-notepad .voice-prompt{margin:18px 0;border:1px solid #aabbd3;border-radius:8px;overflow:hidden}
+#project-voice-notepad summary{cursor:pointer;padding:16px 20px;background:#f2f6fc;font-size:17px;font-weight:600;line-height:1.6}
+#project-voice-notepad summary:focus-visible{outline:3px solid #5279ad;outline-offset:-3px}
+#project-voice-notepad .voice-screen-toggle>div{padding:22px}
+#project-voice-notepad .voice-result-screens{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#project-voice-notepad .voice-prompt pre{max-height:440px;overflow:auto;margin:0;padding:20px;white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;color:#24334a;font:14px/1.8 Consolas,'Malgun Gothic',monospace;tab-size:2}
+#project-voice-notepad .voice-prompt code{font:inherit;color:inherit;background:transparent}
+@media(max-width:700px){#project-voice-notepad .voice-agent-grid,#project-voice-notepad .voice-result-screens{grid-template-columns:1fr}#project-voice-notepad .voice-screen-toggle>div{padding:14px}#project-voice-notepad .voice-agent{padding:18px}}
