@@ -1,0 +1,93 @@
+[
+  {
+    "label": "Languages & Core Technologies",
+    "ko": "언어 및 핵심 기술",
+    "tags": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "PHP",
+      "SQL",
+      "HTML",
+      "TensorFlow"
+    ]
+  },
+  {
+    "label": "Application Frameworks & Libraries",
+    "ko": "웹·모바일 프레임워크 및 라이브러리",
+    "tags": [
+      "Spring Boot",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "CodeIgniter 3",
+      "React",
+      "React Native",
+      "Tailwind CSS",
+      "Vite"
+    ]
+  },
+  {
+    "label": "AI Frameworks & Tools",
+    "ko": "AI 프레임워크 및 도구",
+    "tags": [
+      "LangChain",
+      "LangGraph",
+      "PyTorch",
+      "Transformers",
+      "Hugging Face",
+      "Whisper"
+    ]
+  },
+  {
+    "label": "Databases, Search & Cache",
+    "ko": "데이터베이스 · 벡터 검색 · 캐시",
+    "tags": [
+      "MySQL",
+      "MariaDB",
+      "PostgreSQL",
+      "Redis",
+      "OpenSearch",
+      "Milvus",
+      "Neo4j"
+    ]
+  },
+  {
+    "label": "Infrastructure & Development Environments",
+    "ko": "인프라 및 개발 환경",
+    "tags": [
+      "Docker",
+      "Nginx",
+      "Apache",
+      "XAMPP",
+      "Celery"
+    ]
+  },
+  {
+    "label": "Version Control & Collaboration",
+    "ko": "버전 관리 및 협업",
+    "tags": [
+      "SVN",
+      "GitHub"
+    ]
+  },
+  {
+    "label": "AI Domains & Methods",
+    "ko": "AI 분야 및 방법론",
+    "tags": [
+      "NLP",
+      "LLM",
+      "Multimodal",
+      "RAG",
+      "Multi-Agent",
+      "Embeddings",
+      "Ontology",
+      "Knowledge Graph",
+      "Prompt Engineering",
+      "Text Generation",
+      "LLM Evaluation",
+      "Speech-to-Text"
+    ]
+  }
+]

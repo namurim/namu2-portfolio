@@ -1,0 +1,77 @@
+[
+  {
+    "key": "nlp",
+    "title": "Natural Language Processing & Large Language Models",
+    "experience": "연구 경험 / 실무 경험",
+    "paragraphs": [
+      "자연어를 이해하고 생성하는 언어 모델의 작동 방식과 추론 능력에 관심이 있습니다. 입력 표현과 문맥에 따라 모델의 응답과 추론 결과가 어떻게 달라지는지 분석하고, 언어 생성의 정확성과 적합성을 평가하고 개선하는 방법을 탐구하고자 합니다."
+    ],
+    "tags": [
+      "NLP",
+      "LLM",
+      "Reasoning",
+      "TextGeneration",
+      "ModelEvaluation",
+      "Prompting"
+    ]
+  },
+  {
+    "key": "agent",
+    "title": "AI Agents & Multi-Agent Systems",
+    "experience": "연구 경험 / 실무 경험",
+    "paragraphs": [
+      "언어 모델이 목표에 따라 작업을 계획하고, 도구를 활용하며, 여러 에이전트와 협력하여 문제를 해결하는 구조에 관심이 있습니다. 역할 분담과 실행 순서, 피드백 및 검증 과정이 결과의 품질과 효율성에 미치는 영향을 탐구하고자 합니다."
+    ],
+    "tags": [
+      "AIAgents",
+      "MultiAgent",
+      "Planning",
+      "ToolUse",
+      "AgenticWorkflow"
+    ]
+  },
+  {
+    "key": "multimodal",
+    "title": "Multimodal AI",
+    "experience": "연구 경험",
+    "paragraphs": [
+      "텍스트, 이미지 등 서로 다른 형태의 정보를 통합하여 이해하고 추론하는 멀티모달 AI에 관심이 있습니다. 각 모달리티가 제공하는 정보의 역할과 상호작용을 분석하고, 입력 정보의 조합에 따른 모델의 추론 성능과 신뢰성을 탐구하고자 합니다."
+    ],
+    "tags": [
+      "MultimodalAI",
+      "VisionLanguage",
+      "MultimodalReasoning",
+      "InformationFusion"
+    ]
+  },
+  {
+    "key": "rag",
+    "title": "Retrieval-Augmented Generation",
+    "experience": "연구 경험 / 실무 경험",
+    "paragraphs": [
+      "외부 지식을 검색하고 활용하여 언어 모델의 응답 정확성과 신뢰성을 높이는 기술에 관심이 있습니다. 의미 기반 검색과 지식그래프를 활용한 정보 탐색, 검색 결과의 적합성 평가, 근거 기반 응답 생성 및 검증 방법을 탐구하고자 합니다."
+    ],
+    "tags": [
+      "RAG",
+      "KnowledgeGraph",
+      "SemanticSearch",
+      "GroundedGeneration",
+      "RetrievalEvaluation"
+    ]
+  },
+  {
+    "key": "trustworthy",
+    "title": "Trustworthy AI & Hallucination Mitigation",
+    "experience": "관심 확장",
+    "paragraphs": [
+      "언어 모델과 멀티모달 모델이 생성하는 정보의 사실성과 신뢰성을 평가하고, 할루시네이션을 완화하는 방법에 관심이 있습니다. 모델의 추론 과정과 외부 근거의 활용 방식을 분석하고, 오류를 탐지하고 검증하여 보다 신뢰할 수 있는 AI 시스템을 구축하는 방향을 탐구하고자 합니다."
+    ],
+    "tags": [
+      "Hallucination",
+      "Factuality",
+      "ModelReliability",
+      "AIValidation",
+      "TrustworthyAI"
+    ]
+  }
+]

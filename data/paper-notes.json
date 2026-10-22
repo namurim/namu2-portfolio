@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rstar2-agent",
+    "title": "rStar2-Agent: Agentic Reasoning Technical Report",
+    "date": "2025.10.27",
+    "paper": "https://arxiv.org/abs/2508.20722",
+    "video_url": "https://drive.google.com/file/d/1SDiKM8UkCGl_pRxExYvRD-zVk0HVHvKG/view?usp=sharing",
+    "theme": "Agentic Reasoning",
+    "tags": [
+      "AgenticRL",
+      "PythonTools",
+      "Reasoning"
+    ],
+    "overview": "14B 언어 모델이 Python 도구를 사용하고 실행 결과를 검토하며 복잡한 수학 문제를 해결하도록 강화학습한 연구입니다. 도구 호출과 실행 피드백을 추론 과정에 통합하고, 효율적인 학습 인프라와 단계별 학습 방법을 제시합니다.",
+    "points": [
+      "Python 실행 환경을 포함한 추론 과정에서 탐색·검증·수정을 수행하도록 학습합니다.",
+      "GRPO-RoC와 Resample-on-Correct 전략으로 도구 환경의 노이즈에 대응합니다.",
+      "수학 벤치마크 성능뿐 아니라 응답 길이와 학습 효율도 함께 평가합니다."
+    ]
+  },
+  {
+    "id": "test-time-diffusion",
+    "title": "Deep Researcher with Test-Time Diffusion",
+    "date": "2025.08.14",
+    "paper": "https://arxiv.org/abs/2507.16075",
+    "video_url": "https://drive.google.com/file/d/1Y9OP11LDt5B7eA1Gj_vJOdpbGCn9pytD/view?usp=sharing",
+    "theme": "Deep Research",
+    "tags": [
+      "DeepResearch",
+      "RAG",
+      "IterativeRefinement"
+    ],
+    "overview": "연구 보고서 작성 과정을 초안 생성과 반복적인 검색·수정의 순환으로 설계한 프레임워크입니다. 초안을 다음 검색의 기준으로 삼고, 외부에서 찾은 근거로 내용을 보완하는 과정을 반복해 장문 보고서의 일관성과 정보 활용을 개선합니다.",
+    "points": [
+      "고정된 검색 계획 대신 갱신되는 초안이 다음에 찾아야 할 정보를 안내합니다.",
+      "검색한 근거를 활용해 초안을 점진적으로 다듬는 과정을 denoising으로 해석합니다.",
+      "워크플로 구성 요소의 self-evolution과 보고서 수준의 반복 수정을 결합합니다."
+    ]
+  },
+  {
+    "id": "adapting-while-learning",
+    "title": "Adapting While Learning: Grounding LLMs for Scientific Problems with Tool Usage Adaptation",
+    "date": "2025.04.18",
+    "paper": "https://arxiv.org/abs/2411.00412",
+    "video_url": "https://drive.google.com/file/d/14HC7M9hunSPsp-NAiMRuSJsdwI3v4X_x/view?usp=sharing",
+    "theme": "Adaptive Tool Use",
+    "tags": [
+      "ToolUse",
+      "ScientificReasoning",
+      "AdaptiveInference"
+    ],
+    "overview": "과학 문제를 풀 때 모델이 직접 답할지 외부 도구를 사용할지를 문제의 어려움에 맞게 선택하도록 학습하는 방법입니다. 도구가 만든 해설로 지식을 내재화하는 단계와, 모델의 해결 능력을 바탕으로 도구 사용을 조정하는 단계를 결합합니다.",
+    "points": [
+      "World Knowledge Learning은 도구 기반 해설을 활용해 모델의 과학 지식을 강화합니다.",
+      "Tool Usage Adaptation은 직접 풀 수 있는 문제와 도구가 필요한 문제를 구분해 학습합니다.",
+      "답의 정확도와 함께 불필요한 도구 호출을 줄이는 효율성을 고려합니다."
+    ]
+  },
+  {
+    "id": "test-time-scaling",
+    "title": "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling",
+    "date": "2025.03.28",
+    "paper": "https://arxiv.org/abs/2502.06703",
+    "video_url": "https://drive.google.com/file/d/14kWNXLy8mF7OrqqULDO5Yh5PD5mANAj4/view?usp=sharing",
+    "theme": "Test-Time Scaling",
+    "tags": [
+      "Reasoning",
+      "TestTimeScaling",
+      "ProcessRewardModel"
+    ],
+    "overview": "추론 시 추가 계산을 어떻게 배분해야 효과적인지 분석하는 연구입니다. 정책 모델, 과정 보상 모델(PRM), 문제 난이도에 따라 적절한 전략이 달라짐을 보이고, 일부 수학 벤치마크 조건에서는 작은 모델도 훨씬 큰 모델을 넘어설 수 있음을 실험합니다.",
+    "points": [
+      "모델 크기만으로 성능을 판단하지 않고, 추론 시 탐색 전략과 계산 예산의 조합을 비교합니다.",
+      "정책 모델과 PRM의 특성, 문제 난이도가 계산 효율에 미치는 영향을 분석합니다.",
+      "작은 모델의 우위는 특정 과제와 계산 조건에서의 결과이며, 모든 작업으로 일반화하지 않습니다."
+    ]
+  },
+  {
+    "id": "minitron",
+    "title": "LLM Pruning and Distillation in Practice: The Minitron Approach",
+    "date": "2025.03.07",
+    "paper": "https://arxiv.org/abs/2408.11796",
+    "video_url": "https://drive.google.com/file/d/1OOQirMJ1X0_f3g5JSJxkmvdmwU8evUVC/view?usp=sharing",
+    "theme": "Model Compression",
+    "tags": [
+      "Pruning",
+      "KnowledgeDistillation",
+      "EfficientLLM"
+    ],
+    "overview": "큰 언어 모델을 가지치기(pruning)와 지식 증류(distillation)로 압축하면서 성능을 유지하는 방법을 다룹니다. Llama 3.1 8B와 Mistral NeMo 12B를 각각 4B와 8B 모델로 줄이고, 깊이·너비 방향의 가지치기와 증류 전략을 비교합니다.",
+    "points": [
+      "층을 줄이는 깊이 가지치기와 hidden·attention·MLP 차원을 줄이는 너비 가지치기를 비교합니다.",
+      "원래 학습 데이터가 없는 상황에서, 증류에 사용할 데이터로 교사 모델을 먼저 보정하는 과정을 제안합니다.",
+      "모델 크기뿐 아니라 벤치마크 성능과 실제 추론 속도를 함께 살펴봅니다."
+    ]
+  }
+]

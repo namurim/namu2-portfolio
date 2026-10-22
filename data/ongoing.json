@@ -1,0 +1,27 @@
+[
+  {
+    "slot": 1,
+    "status": "Ongoing",
+    "disclosed": false
+  },
+  {
+    "slot": 2,
+    "status": "Ongoing",
+    "disclosed": false
+  },
+  {
+    "slot": 3,
+    "status": "Ongoing",
+    "disclosed": false
+  },
+  {
+    "slot": 4,
+    "status": "Ongoing",
+    "disclosed": false
+  },
+  {
+    "slot": 5,
+    "status": "Ongoing",
+    "disclosed": false
+  }
+]

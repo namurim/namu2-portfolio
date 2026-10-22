@@ -1,0 +1,97 @@
+[
+  {
+    "id": "plani",
+    "company": "(주)플랜아이",
+    "role": "AI Service Development",
+    "date": "2026.08 — Present",
+    "current": true,
+    "image": "assets/images/career/Plani.png",
+    "description": "LLM 및 검색 기술을 활용한 AI 서비스 개발과 데이터 처리 파이프라인 구축 업무를 수행하고 있습니다.",
+    "heading": "Key Contributions",
+    "items": [
+      "LLM 입출력 가드레일 및 응답 제어 기능 개발",
+      "RAG 기반 문서 검색 및 보고서 생성 서비스 개발",
+      "문서 임베딩 및 검색 파이프라인 개발·운영",
+      "회상 기반 인지저하 조기 선별 지원 서비스의 AI 기술 적용 가능성 검토 및 시제품 개발"
+    ],
+    "focus": [
+      "LLM Applications",
+      "RAG",
+      "Embedding",
+      "AI Service Development"
+    ]
+  },
+  {
+    "id": "isoftlab",
+    "company": "충남대학교 ISoftLab",
+    "role": "Graduate Researcher",
+    "date": "2024.09 — 2026.08",
+    "current": false,
+    "image": "assets/images/career/CNU.png",
+    "description": "자연어처리와 대규모 언어 모델을 중심으로, 언어 생성과 추론 과정에 영향을 미치는 요인을 분석하고 AI 모델의 성능을 개선하기 위한 방법을 연구했습니다.",
+    "heading": "Key Research",
+    "items": [
+      "학습자 수준에 적합한 언어 생성을 위한 멀티 에이전트 프레임워크 연구",
+      "언어적 표현 변화가 LLM의 추론 성능에 미치는 영향 분석",
+      "지식그래프 기반 학술 정보 검색 및 관계 중심 정보 활용 연구",
+      "교육용 문장의 시각적 표현 가능성 평가 및 멀티모달 콘텐츠 생성 적합성 분석"
+    ],
+    "focus": [
+      "NLP",
+      "LLM",
+      "Multi-Agent Systems",
+      "Knowledge Graph",
+      "Multimodal Reasoning"
+    ]
+  },
+  {
+    "id": "bidcoaching",
+    "company": "(주)비드코칭연구소",
+    "role": "Full-Stack Developer",
+    "date": "2023.07 — 2024.08",
+    "current": false,
+    "image": "assets/images/career/Bidcoaching.png",
+    "description": "사내 CRM 구축부터 컨설팅 웹 서비스 개발 및 유지보수, API 개발과 데이터 수집 기능 구현까지 다양한 웹 개발 업무를 수행했습니다. 사용자 요구사항 분석, 데이터베이스 설계, 백엔드 및 프론트엔드 개발, 테스트와 배포 등 서비스 개발 전반에 참여했습니다.",
+    "heading": "Key Contributions",
+    "items": [
+      "고객 정보, 영업 이력 및 계약 정보를 통합 관리하는 사내 CRM 시스템 개발",
+      "컨설팅 웹 서비스 및 관련 기능 개발·유지보수",
+      "외부 정보 수집 및 데이터 관리 기능 개발",
+      "서비스 연동을 위한 API 및 데이터베이스 설계·구현"
+    ],
+    "focus": [
+      "Web Development",
+      "CRM",
+      "Database Design",
+      "API Development"
+    ]
+  },
+  {
+    "id": "daegunsoft",
+    "company": "(주)대건소프트",
+    "role": "Software Developer",
+    "date": "2019.04 — 2022.06",
+    "current": false,
+    "image": "assets/images/career/Daegunsoft.png",
+    "description": "태양광 발전 설비의 운영 정보를 확인할 수 있는 모니터링 서비스와 모바일 애플리케이션의 개발 및 유지보수 업무를 수행했습니다.",
+    "heading": "Key Contributions",
+    "items": [
+      "기존 Helios 태양광 모니터링 서비스 개발 및 유지보수",
+      "모바일 애플리케이션 기능 개발 및 유지보수 (누적 다운로드 500+)",
+      "데이터 조회 및 서비스 연동을 위한 API 개발",
+      "ERP 관련 기능 개발 및 운영 지원"
+    ],
+    "focus": [
+      "Mobile Application",
+      "Monitoring System",
+      "API",
+      "ERP"
+    ],
+    "achievement": {
+      "metric": "500+",
+      "label": "개발 참여 앱 누적 다운로드",
+      "as_of": "2026.10",
+      "source": "사용자 제공"
+    }
+  }
+]

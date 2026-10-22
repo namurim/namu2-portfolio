@@ -1,0 +1,214 @@
+[
+  {
+    "id": "cafe-cafe",
+    "name": "카페카페 (Cafe Cafe)",
+    "year": "2014",
+    "category": "Android Application Development",
+    "summary": "대학가 카페 정보와 리뷰를 한곳에서 확인하는 Android 앱",
+    "overview": "대학가 인근 카페 정보를 제공하고, 사용자가 카페별 리뷰를 작성하고 조회할 수 있는 Android 애플리케이션을 개발했습니다.",
+    "features": [
+      "Android 기반 모바일 애플리케이션 개발",
+      "대학가 주변 카페 정보 조회 기능 구현",
+      "앱 내부 데이터베이스를 활용한 카페 정보 저장 및 관리",
+      "카페별 리뷰 작성 및 조회 기능 구현"
+    ],
+    "role": "첫 코딩 프로젝트로, 카페 정보 조회와 리뷰 기능을 포함한 Android 애플리케이션 개발 전반에 참여했습니다.",
+    "technologies": [
+      "Java",
+      "Android",
+      "Local Database"
+    ],
+    "learnings": [
+      "첫 코딩 프로젝트를 통해 Java와 Android 앱의 기본 구조를 익히고, 화면 구성부터 기능 구현까지 하나의 앱을 완성하는 과정을 경험했습니다.",
+      "앱 내부 데이터베이스에 카페 정보와 리뷰를 저장·조회하며 데이터 관리의 기초를 배웠습니다.",
+      "사용자가 필요한 정보를 쉽게 찾을 수 있도록 화면과 기능 흐름을 구성하는 중요성을 배웠습니다."
+    ],
+    "github": null,
+    "videos": [],
+    "resources": []
+  },
+  {
+    "id": "bluno",
+    "name": "Bluno — Bluetooth 기반 스마트 램프",
+    "year": "2015",
+    "category": "IoT & Mobile Application",
+    "summary": "스마트폰으로 조명과 음악을 제어하는 Bluetooth 스마트 램프",
+    "overview": "혼자 사는 사용자의 생활 편의와 즐거움을 위해, iPhone과 Arduino를 Bluetooth로 연결해 조명의 색상·밝기와 음악을 제어하는 스마트 램프를 개발했습니다.",
+    "features": [
+      "Arduino와 iPhone 간 Bluetooth 통신 구현",
+      "iOS 앱에서 조명 색상·밝기·ON/OFF 및 음악 제어 기능 구현",
+      "사용자가 보낸 제어 값을 Arduino에서 수신해 조명과 음악 동작에 반영",
+      "Bluetooth 반경 내 인식 시 자동 점등 기능 설계",
+      "3D 프린팅을 활용한 조명틀 제작"
+    ],
+    "role": "Arduino–iPhone Bluetooth 통신, iOS 앱 음악 재생 기능 구현 및 3D 프린팅 조명틀 제작",
+    "technologies": [
+      "Objective-C",
+      "iOS"
+    ],
+    "learnings": [
+      "Xcode와 iOS 프로젝트 구조, Objective-C 문법을 익혔습니다.",
+      "여러 기능을 쉽게 탐색할 수 있는 직관적인 UI의 중요성을 배웠습니다.",
+      "팀 개발에서 코드 충돌과 공유 방식을 조율하는 경험을 했습니다.",
+      "2015년 공학기기 활용교육을 이수하고 익숙하지 않은 3D 프린팅 기술을 프로젝트에 적용했습니다."
+    ],
+    "github": "https://github.com/namurim/Bluno_project",
+    "videos": [
+      {
+        "id": "TJefqfd2UXQ",
+        "title": "Bluno 시연",
+        "url": "https://youtube.com/shorts/TJefqfd2UXQ?si=a1YsHAxWKeXR7OeV"
+      }
+    ],
+    "resources": [],
+    "cover_image": "assets/images/project/bluno/Bluno1.png",
+    "images": [
+      "assets/images/project/bluno/Bluno1.png",
+      "assets/images/project/bluno/Bluno2.png"
+    ]
+  },
+  {
+    "id": "dormtakki",
+    "name": "Dormtakki — IoT 기반 공용 세탁기 모니터링",
+    "year": "2016",
+    "category": "IoT & Mobile Service",
+    "summary": "센서 데이터로 공용 세탁기의 사용 상태를 알려주는 모바일 서비스",
+    "overview": "기숙사에서 세탁기 사용 현황을 확인하려고 매번 세탁실을 방문해야 하는 불편을 줄이기 위해, 기존 세탁기에 전류 센서를 부착하고 작동 상태를 모바일 앱으로 제공하는 시스템을 개발했습니다.",
+    "features": [
+      "전력·전류 데이터를 활용한 세탁기 사용 상태 파악",
+      "세탁기 전류를 측정하는 센서 모듈과 서버 전송 기능 구현",
+      "수집한 전류 데이터를 분석해 세탁기 상태를 판단하는 서버 구성",
+      "서버와 연동해 세탁기 현황을 조회하고 알림을 받는 Android 앱 개발",
+      "실제 기숙사 환경을 고려한 시스템 구현"
+    ],
+    "role": "서버 연동 및 세탁기 상태 조회 Android 애플리케이션 개발",
+    "technologies": [
+      "Java",
+      "Android",
+      "PHP",
+      "MySQL"
+    ],
+    "learnings": [
+      "Android 프로젝트 구조와 Java 기반 앱 개발 방식을 익혔습니다.",
+      "HTTP 통신을 통해 모바일 앱과 서버를 연동하는 과정을 경험했습니다.",
+      "AndroidManifest의 INTERNET·ACCESS_NETWORK_STATE 권한 등 기능 사용에 필요한 권한 설정을 이해했습니다."
+    ],
+    "github": "https://github.com/namurim/DORMTAKKI",
+    "videos": [
+      {
+        "id": "v2ojAXl4JkY",
+        "title": "Dormtakki 시연",
+        "url": "https://youtu.be/v2ojAXl4JkY?si=kwF6-09bVIgcjCjV"
+      }
+    ],
+    "resources": [
+      {
+        "label": "관련 논문",
+        "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116463"
+      }
+    ],
+    "award": "2016 창의SW축전 창의작품경진대회 · 우수상"
+  },
+  {
+    "id": "dormtakki-v2",
+    "name": "Dormtakki v2 — 챗봇·예약 기반 세탁시설 관리",
+    "year": "2017",
+    "category": "Chatbot API & Reservation System",
+    "summary": "세탁기 모니터링을 챗봇·예약·푸시 알림 서비스로 확장",
+    "overview": "기존 IoT 세탁기 모니터링 시스템에 챗봇, 세탁기 예약 알고리즘과 알림을 추가해 사용자가 더 편리하게 공용 세탁시설을 이용할 수 있도록 서비스를 개선했습니다.",
+    "features": [
+      "챗봇 API를 기존 IoT 세탁기 관리 시스템과 연동",
+      "본인 확인을 위한 사용자 정보 입력 기능 구현",
+      "서버 통신을 통한 세탁기 동작 상태 모니터링",
+      "공용 세탁기 예약 알고리즘 설계 및 예약 요청 기능 구현",
+      "세탁 완료·예약 순서 변경에 따른 Firebase 푸시 알림 전송"
+    ],
+    "role": "세탁 예약·알림 Android 애플리케이션 및 세탁기 상태 변경에 따른 Firebase 푸시 알림 백엔드 개발",
+    "technologies": [
+      "Java",
+      "Android",
+      "PHP",
+      "MySQL"
+    ],
+    "learnings": [
+      "WAKE_LOCK을 이용한 화면 깨우기와 불필요한 배터리 소모를 줄이기 위한 자원 해제를 익혔습니다.",
+      "Firebase 연동과 별개로 단말의 알림 허용 설정이 알림 수신에 영향을 준다는 점을 이해했습니다.",
+      "SharedPreferences로 가벼운 로그인 정보 저장과 자동 로그인 기능을 구현했습니다."
+    ],
+    "github": "https://github.com/namurim/Dormtakki_v2",
+    "videos": [
+      {
+        "id": "ut_2KOIDrI8",
+        "title": "Dormtakki v2 앱 시연",
+        "url": "https://youtu.be/ut_2KOIDrI8?si=5q2Ge2MZsWrcHZY1"
+      },
+      {
+        "id": "YB3_OYpO53Y",
+        "title": "Dormtakki v2 챗봇 시연",
+        "url": "https://youtube.com/shorts/YB3_OYpO53Y?si=5yPiBvqsjIoBB0hc"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "99th-recorder",
+    "name": "99thRecorder — 키워드로 찾아 듣는 강의 녹음",
+    "year": "2016",
+    "category": "Android & Speech Recognition",
+    "summary": "녹음을 텍스트로 변환하고 검색한 단어의 위치부터 다시 듣는 Android 앱",
+    "overview": "강의를 녹음한 뒤 이해가 어려웠던 부분만 다시 듣고 싶어도, 긴 녹음에서 해당 구간을 찾기 어렵다는 문제에 주목했습니다. 음성을 텍스트로 변환하고 단어 검색으로 녹음의 해당 위치를 찾아 재생하는 Android 애플리케이션을 개발했습니다.",
+    "features": [
+      "MediaRecorder를 활용한 음성 녹음 및 파일 저장",
+      "네이버 음성인식 API를 활용한 녹음 파일의 텍스트 변환",
+      "단어 검색을 통한 녹음 구간 탐색",
+      "검색된 단어의 위치부터 음성 재생"
+    ],
+    "role": "네이버 음성인식 API 연동 및 변환된 텍스트의 Android 내부 데이터베이스 저장",
+    "technologies": [
+      "Java",
+      "Android"
+    ],
+    "learnings": [
+      "PCM 음성 데이터와 미디어 포맷을 다루며 MediaCodec·MediaMuxer를 이용한 MP4 변환 방법을 학습했습니다.",
+      "내부 데이터베이스에 데이터를 저장하고 조회하는 시행착오를 통해 SQL 사용법을 익혔습니다.",
+      "문장 단위로 종료되는 음성인식 API의 동작에 대응하며 스레드를 활용한 처리 방식을 경험했습니다."
+    ],
+    "github": "https://github.com/namurim/99thRecorder",
+    "videos": [
+      {
+        "id": "gCHK_A2_mXI",
+        "title": "99thRecorder 시연",
+        "url": "https://youtu.be/gCHK_A2_mXI"
+      }
+    ],
+    "resources": []
+  },
+  {
+    "id": "public-api",
+    "name": "공공데이터 통합 API 서버",
+    "year": "2017",
+    "category": "Backend & Open API Integration",
+    "summary": "여러 공공데이터를 수집·저장하고 일관된 URL로 제공하는 Flask API 서버",
+    "overview": "공공데이터 API의 일일 호출 횟수 제한과 서로 다른 호출 방식을 고려해, 여러 데이터를 하나의 서버에서 통합 제공하는 API 서버를 개발했습니다. 새로운 데이터가 필요할 때마다 별도 프로젝트를 만드는 대신, 공통 구조 안에서 API를 확장하고 관리할 수 있도록 구성했습니다.",
+    "features": [
+      "일정 주기로 공공데이터를 수집하고 데이터베이스에 저장",
+      "클라이언트 요청 시 저장된 데이터를 반환하는 API 구현",
+      "CCTV·어린이보호구역·교통사고 데이터의 통합 조회",
+      "데이터 유형과 조회 조건을 URL 경로로 구분하는 인터페이스 구성"
+    ],
+    "role": "공공데이터 API 연동, 데이터 수집·저장 및 Flask 기반 조회 API 구현",
+    "technologies": [
+      "Python 3.7",
+      "Flask"
+    ],
+    "learnings": [
+      "외부 API를 호출하고 응답을 처리하는 과정부터 데이터 저장과 자체 API 제공까지 전체 흐름을 실습했습니다.",
+      "외부 API의 호출 제한을 고려해 데이터를 미리 수집·저장하고 재사용하는 구조의 필요성을 이해했습니다.",
+      "URL 경로와 매개변수로 조회 조건을 전달하는 API 설계를 익혔습니다.",
+      "기능 규모와 유지보수 요구에 맞춰 프레임워크를 선택하고, 여러 데이터 소스를 공통 구조로 관리하는 방법을 배웠습니다."
+    ],
+    "github": "https://github.com/namurim/OpenApiServer",
+    "videos": [],
+    "resources": []
+  }
+]
