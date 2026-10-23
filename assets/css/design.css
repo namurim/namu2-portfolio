@@ -292,3 +292,18 @@ header .nav{width:calc(100% - 80px);max-width:1140px;margin-left:auto;margin-rig
 #project-pdf-rag .rag-step-list code{display:block;width:fit-content;max-width:100%;font-size:13px;overflow-wrap:anywhere;background:#edf1f6;color:#435169;padding:2px 7px;border-radius:4px;margin-top:5px}
 #project-pdf-rag .rag-prompt pre{margin:0;padding:22px;white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f7fb;border-top:1px solid #dce1e9;font:15px/1.9 Consolas,'Malgun Gothic',monospace}
 #project-pdf-rag .rag-prompt code{font:inherit;color:#24334a;background:transparent}
+
+/* Three-modality classification labs. */
+.classification-labs-card .classification-labs-cover{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:8px;padding:24px 18px;background:linear-gradient(115deg,#e8edf8,#edf5ef);color:#446087}
+.classification-labs-cover>span{font-size:14px;font-weight:700;letter-spacing:.08em;text-align:center}
+.classification-labs-cover small{display:block;font-size:12px;font-weight:400;letter-spacing:0;margin-top:8px}
+#project-transformer-classification-labs .classification-lab-description{padding-bottom:16px;border-bottom:1px solid #dce1e9}
+#project-transformer-classification-labs .classification-lab-goal{font-size:17px;line-height:1.9;padding:16px 18px;background:#f2f5fa;border-left:3px solid #7893b9}
+#project-transformer-classification-labs .classification-lab-flow{font-size:15px;line-height:1.9;padding:14px 18px;border:1px solid #c5d1e1;border-radius:7px;color:#28476e}
+#project-transformer-classification-labs .classification-lab-flow span{color:#7893b9;padding:0 4px}
+#project-transformer-classification-labs .classification-lab-results{border:1px solid #b5c3d6;border-radius:8px;overflow:hidden;margin:16px 0}
+#project-transformer-classification-labs summary{padding:17px 20px;cursor:pointer;background:#f1f5fb;font-size:17px;line-height:1.6}
+#project-transformer-classification-labs summary:focus-visible{outline:3px solid #567eaf;outline-offset:-3px}
+#project-transformer-classification-labs .classification-result-placeholder{padding:22px;color:#536072}
+#project-transformer-classification-labs .classification-result-placeholder p{font-size:16px;line-height:1.8;margin:8px 0 0}
+#project-transformer-classification-labs .classification-lab-credit{margin-top:30px;font-size:14px;line-height:1.8;color:#596273}
