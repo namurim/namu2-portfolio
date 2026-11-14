@@ -1,0 +1,36 @@
+/* DayPlan project detail; scoped to the new modal. */
+#project-dayplan .dayplan-gallery figure{margin:24px 0 30px}
+#project-dayplan .dayplan-gallery img{display:block;width:100%;height:auto;border:1px solid #d7dee9;border-radius:8px;background:#fff}
+#project-dayplan .dayplan-gallery figcaption{padding:12px 2px;color:#58667b;font-size:14px;line-height:1.8}
+#project-dayplan .dayplan-agent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+#project-dayplan .dayplan-agent{padding:23px;background:#eef4fd;border:1px solid #c1d1eb;border-radius:10px}
+#project-dayplan .dayplan-agent.reviewer{background:#f3f0fa;border-color:#d2c9e6}
+#project-dayplan .dayplan-agent-label{font-size:11px;letter-spacing:1px;font-weight:700;color:#51698d}
+#project-dayplan .dayplan-agent h4{font-size:20px;margin:10px 0 12px}
+#project-dayplan .dayplan-agent p{font-size:16px;line-height:1.9;margin:0}
+#project-dayplan .dayplan-flow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:20px;margin:24px 0;background:#f3f6fb;border:1px solid #d6deea;border-radius:9px;font-size:15px;line-height:1.8}
+#project-dayplan .dayplan-flow span{font-weight:600;color:#304a70}
+#project-dayplan .dayplan-flow b{color:#8699b3}
+#project-dayplan .dayplan-mcp-chain{display:grid;gap:0;margin:24px 0;border:1px solid #d5dfee;border-radius:8px;overflow:hidden}
+#project-dayplan .dayplan-mcp-chain span{padding:14px 18px;font-size:15px;line-height:1.7;background:#f3f7fd}
+#project-dayplan .dayplan-mcp-chain span+span{border-top:1px solid #d5dfee}
+#project-dayplan .dayplan-mcp-chain span:nth-child(2){background:#e9f0fb;font-weight:600;color:#2d4f7f}
+#project-dayplan .dayplan-api-toggle{margin:30px 0;border:1px solid #b9cce7;border-radius:10px;overflow:hidden;background:#fff}
+#project-dayplan .dayplan-api-toggle>summary{display:flex;align-items:center;gap:12px;list-style:none;cursor:pointer;padding:20px 22px;background:#edf3fb;color:#23446f;font-size:19px;font-weight:700}
+#project-dayplan .dayplan-api-toggle>summary::-webkit-details-marker{display:none}
+#project-dayplan .dayplan-api-toggle>summary small{font-size:12px;font-weight:400;color:#637b9b}
+#project-dayplan .dayplan-toggle-label{margin-left:auto;font-size:13px;white-space:nowrap;font-weight:500}
+#project-dayplan .dayplan-toggle-label::after{content:'펼치기 +'}
+#project-dayplan .dayplan-api-toggle[open] .dayplan-toggle-label::after{content:'접기 −'}
+#project-dayplan .dayplan-api-toggle>summary:focus-visible{outline:3px solid #759ed8;outline-offset:-4px}
+#project-dayplan .dayplan-api-content{padding:24px}
+#project-dayplan .dayplan-api-list{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+#project-dayplan .dayplan-api-list>li,#project-dayplan .dayplan-model-api{padding:19px;border:1px solid #dce3ec;border-radius:8px;background:#fafbfd}
+#project-dayplan .dayplan-api-content h4{font-size:17px;line-height:1.7;margin:0 0 8px}
+#project-dayplan .dayplan-api-content h4 a{color:#244f87;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#bdcde4}
+#project-dayplan .dayplan-api-content h4 a:hover{color:#17345b}
+#project-dayplan .dayplan-api-list p,#project-dayplan .dayplan-model-api p{font-size:15px;line-height:1.85;margin:0;color:#4c5c72}
+#project-dayplan .dayplan-api-methods{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+#project-dayplan .dayplan-api-content code{font-size:12px;line-height:1.7;padding:3px 7px;border:1px solid #dfe6f0;border-radius:4px;background:#f0f4f9;overflow-wrap:anywhere}
+#project-dayplan .dayplan-model-api>.text-link{display:inline-block;margin-top:14px}
+@media(max-width:640px){#project-dayplan .dayplan-agent-grid{grid-template-columns:1fr}#project-dayplan .dayplan-agent{padding:19px}#project-dayplan .dayplan-api-toggle>summary{flex-wrap:wrap;padding:17px;font-size:17px;gap:8px}#project-dayplan .dayplan-api-toggle>summary small{font-size:11px}#project-dayplan .dayplan-api-content{padding:17px}#project-dayplan .dayplan-api-list>li,#project-dayplan .dayplan-model-api{padding:15px}#project-dayplan .dayplan-api-content h4{font-size:16px}#project-dayplan .dayplan-api-content code{font-size:11px}}
