@@ -191,6 +191,44 @@
     ]
   },
   {
+    "id": "docker-practice",
+    "github": "https://github.com/namurim/docker_practice",
+    "name": "Docker Practice — Docker로 웹·DB·모델 배포하기",
+    "year": "개인 프로젝트",
+    "category": "Docker Compose · Backend · Model Serving",
+    "summary": "더미 웹 서비스·PostgreSQL을 Compose로 구성하고, 볼륨·재배포와 Ollama 1 GPU·vLLM 2 GPU 운영 절차를 정리한 실습",
+    "overview": "더미 메모 웹 서비스·Python API·PostgreSQL을 Docker Compose로 구성하고 볼륨·재배포·모델 서버 운영 절차를 정리한 실습 프로젝트입니다.",
+    "technologies": [
+      "Docker",
+      "Docker Compose",
+      "Python",
+      "Nginx",
+      "PostgreSQL",
+      "Volumes",
+      "Ollama",
+      "Hugging Face",
+      "vLLM",
+      "NVIDIA GPU"
+    ],
+    "cover_image": "assets/images/project/docker-practice/cover.svg",
+    "images": [
+      "assets/images/project/docker-practice/cover.svg"
+    ],
+    "model": {
+      "repository": "google/gemma-3-4b-it",
+      "context_length": 4096,
+      "ollama_gpu_count": 1,
+      "vllm_gpu_count": 2
+    },
+    "validation": "단일 Compose 파일로 통합. 이번 변경은 검증 미실행. Docker Engine·PostgreSQL 영속성·실제 모델 다운로드·GPU 추론은 서버 추가 검증 필요.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/namurim/docker_practice"
+      }
+    ]
+  },
+  {
     "id": "transformer-classification-labs",
     "name": "Transformer 기반 텍스트·이미지·소리 분류 실습",
     "year": "교육용 실습 프로젝트",
@@ -667,7 +705,6 @@
       "CSS",
       "JavaScript",
       "OpenRouter",
-      "GPT-4o mini",
       "MCP",
       "Tool Calling",
       "Pydantic",
@@ -691,8 +728,7 @@
     ],
     "model": {
       "provider": "OpenRouter",
-      "id": "openai/gpt-4o-mini",
-      "url": "https://openrouter.ai/openai/gpt-4o-mini"
+      "url": "https://openrouter.ai/docs/api/reference/overview"
     },
     "mcp": {
       "transport": "stdio",
@@ -783,10 +819,6 @@
       {
         "title": "MCP 공식 문서",
         "url": "https://modelcontextprotocol.io/docs/learn/architecture"
-      },
-      {
-        "title": "OpenRouter · GPT-4o mini",
-        "url": "https://openrouter.ai/openai/gpt-4o-mini"
       }
     ]
   }
