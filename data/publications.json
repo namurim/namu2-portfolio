@@ -1,6 +1,17 @@
 [
   {
     "group": "International",
+    "venue": "EACL 2027",
+    "date": "2027",
+    "title": "SIDE: Sentence Imageability and Depictability Evaluation Framework",
+    "authors": "Yerim Han, Jaewon Heo, Sung Jun Lee, Sungeun Kim, Yohan Lee, Sangkeun Jung",
+    "status": "Accepted",
+    "url": null,
+    "track": "Main Conference",
+    "note": "현재 Main Conference Accepted\nCamera-ready 준비 중\n3월 학회 후 링크 추가 예정"
+  },
+  {
+    "group": "International",
     "venue": "Applied Artificial Intelligence",
     "date": "2026.06",
     "title": "Evaluating Large Language Models on the 2026 Korean CSAT Mathematics Exam: Measuring Mathematical Ability in a Zero-Data-Leakage Setting",
