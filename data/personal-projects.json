@@ -196,8 +196,8 @@
     "name": "Docker Practice — Docker로 웹·DB·모델 배포하기",
     "year": "개인 프로젝트",
     "category": "Docker Compose · Backend · Model Serving",
-    "summary": "더미 웹 서비스·PostgreSQL을 Compose로 구성하고, 볼륨·재배포와 Ollama 1 GPU·vLLM 2 GPU 운영 절차를 정리한 실습",
-    "overview": "더미 메모 웹 서비스·Python API·PostgreSQL을 Docker Compose로 구성하고 볼륨·재배포·모델 서버 운영 절차를 정리한 실습 프로젝트입니다.",
+    "summary": "웹·API·DB와 모델 서버를 연결하고 pgvector·파일 볼륨·모델 경로 마운트와 서비스 이름 기반 통신·healthcheck를 구성한 Docker 실습",
+    "overview": "메모 서비스를 예제로, PostgreSQL 16 + pgvector·서비스 이름 기반 통신·DB와 파일 볼륨·모델 경로 마운트·모델 준비 상태 healthcheck와 버전 지정을 실습하는 프로젝트입니다.",
     "technologies": [
       "Docker",
       "Docker Compose",
@@ -208,7 +208,10 @@
       "Ollama",
       "Hugging Face",
       "vLLM",
-      "NVIDIA GPU"
+      "NVIDIA GPU",
+      "pgvector",
+      "Healthcheck",
+      "Bind mounts"
     ],
     "cover_image": "assets/images/project/docker-practice/cover.svg",
     "images": [
@@ -220,7 +223,6 @@
       "ollama_gpu_count": 1,
       "vllm_gpu_count": 2
     },
-    "validation": "단일 Compose 파일로 통합. 이번 변경은 검증 미실행. Docker Engine·PostgreSQL 영속성·실제 모델 다운로드·GPU 추론은 서버 추가 검증 필요.",
     "resources": [
       {
         "title": "GitHub",
@@ -811,7 +813,6 @@
     "learnings": [
       "같은 모델도 역할별 지침과 입력·출력 형식을 나누면 기획과 검토의 책임을 분리할 수 있음을 확인했습니다.",
       "MCP 도구와 외부 API 호출을 분리해, 모델의 판단과 실제 데이터 조회가 이어지는 흐름을 구현했습니다.",
-      "HTTP 성공 여부 외에 서비스 결과 코드·빈 응답·조회 가능 기간까지 확인해야 한다는 점을 배웠습니다.",
       "지역·역·터미널·예보구역의 서로 다른 코드 체계와 예보 발표 시각을 정리하며, 에이전트가 사용할 입력값을 코드에서 보완했습니다.",
       "반복 횟수를 제한하고 해결되지 않은 항목을 남겨, 검토가 끝났다는 이유만으로 모든 정보를 확정하지 않도록 구성했습니다."
     ],
